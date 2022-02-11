@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4429905630930269848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2668783196233158388}
+  - component: {fileID: 3956963884319602883}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2668783196233158388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4429905630930269848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3956963884319602883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4429905630930269848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d81388a4fc8bd74cacf71fcb2cf28a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Song
+    clip: {fileID: 8300000, guid: c4406bd95d51cc94a830c39f2ac75751, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 9dd7f73046914a44d914911e12ae0639, type: 2}
+    loop: 1
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 0c45b59eb34e64e448e216426379a94a, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 9dd7f73046914a44d914911e12ae0639, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 1aa1a125b91b8ac428cef6618536994d, type: 3}
+    volume: 0.6
+    pitch: 1
+    group: {fileID: 24300002, guid: 9dd7f73046914a44d914911e12ae0639, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: a79662e69cfde5e4db30892507d21a1e, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 9dd7f73046914a44d914911e12ae0639, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Orb
+    clip: {fileID: 8300000, guid: 8c59f8ff5d5d83b4c98892a60db87a8a, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 9dd7f73046914a44d914911e12ae0639, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Rainbow
+    clip: {fileID: 8300000, guid: ddbae424731f19440aeca1022613812c, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 9dd7f73046914a44d914911e12ae0639, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: 6b0bd2db01bc5dc4387cceed51352b88, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 9dd7f73046914a44d914911e12ae0639, type: 2}
+    loop: 0
+    source: {fileID: 0}
